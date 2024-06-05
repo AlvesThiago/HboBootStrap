@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <title>HBO</title>
+</head>
+<body>
+    <nav class="navbar text-bg-dark p-2">
+        <div class="container-fluid">
+            <h1>MAX</h1>
+            <form class="d-flex" role="search">
+                <button class="btn btn-outline-light me-2" type="button">ENTRAR</button>
+                <button class="btn btn-primary" type="button">ASSINE AGORA</button>
+            </form>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" >
+                <img src="https://rc832.com.br/wp-content/uploads/2021/05/HBO-MAX-CAPA.jpg" class="d-block w-100 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://pbs.twimg.com/media/GJH4scnWsAAxdkH.jpg:large" class="d-block w-100 img-fluid" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://pbs.twimg.com/media/FsMB6e7agAAYF1_.jpg:large" class="d-block w-100 img-fluid" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="bg-dark">
+        <div class="container">
+            <h2 class="text-center mb-4 pt-5 text-light">ESCOLHA O MELHOR PLANO PARA VOCÊ</h2>
+            <nav class="nav nav-tabs justify-content-center mb-4">
+                <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">MENSAL</button>
+                <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">ANUAL</button>
+            </nav>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="aba1">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="card text-center p-4 h-100">
+                                <div class="card-body d-flex flex-column">
+                                    <h4 class="card-title">Básico com Anúncios</h4>
+                                    <p class="card-text">2 dispositivos ao mesmo tempo</p>
+                                    <p class="card-text">Resolução Full HD</p>
+                                    <h2 class="mt-auto">R$29,90/mês</h2>
+                                    <button class="btn btn-primary mt-3" type="button">ESCOLHA O SEU PLANO</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="card text-center p-4 h-100">
+                                <div class="card-body d-flex flex-column">
+                                    <h4 class="card-title">Standard</h4>
+                                    <p class="card-text">2 dispositivos ao mesmo tempo</p>
+                                    <p class="card-text">Resolução Full HD</p>
+                                    <p class="card-text">30 downloads para curtir off-line</p>
+                                    <h2 class="mt-auto">R$39,90/mês</h2>
+                                    <button class="btn btn-primary mt-3" type="button">ESCOLHA O SEU PLANO</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="card text-center p-4 h-100">
+                                <div class="card-body d-flex flex-column">
+                                    <h4 class="card-title">Platinum</h4>
+                                    <p class="card-text">4 dispositivos ao mesmo tempo</p>
+                                    <p class="card-text">Resolução Full HD e 4K Ultra HD</p>
+                                    <p class="card-text">Áudio Dolby Atmos</p>
+                                    <p class="card-text">100 downloads para curtir off-line</p>
+                                    <h3 class="mt-auto">R$49,90/mês</h3>
+                                    <button class="btn btn-primary mt-3" type="button">ESCOLHA O SEU PLANO</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="aba2">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="card text-center p-4 h-100">
+                                <div class="card-body d-flex flex-column">
+                                    <h4 class="card-title">Básico com Anúncios</h4>
+                                    <p class="card-text">2 dispositivos ao mesmo tempo</p>
+                                    <p class="card-text">Resolução Full HD</p>
+                                    <h2 class="mt-auto">12x R$18,90/mês</h2>
+                                    <span>Preço total anual R$226,80</span>
+                                    <button class="btn btn-primary mt-3" type="button">ESCOLHA O SEU PLANO</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="card text-center p-4 h-100">
+                                <div class="card-body d-flex flex-column">
+                                    <h4 class="card-title">Standard</h4>
+                                    <p class="card-text">2 dispositivos ao mesmo tempo</p>
+                                    <p class="card-text">Resolução Full HD</p>
+                                    <p class="card-text">30 downloads para curtir off-line</p>
+                                    <h2 class="mt-auto">12x R$29,90/mês</h2>
+                                    <span>Preço total anual R$358,80</span>
+                                    <button class="btn btn-primary mt-3" type="button">ESCOLHA O SEU PLANO</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="card text-center p-4 h-100">
+                                <div class="card-body d-flex flex-column">
+                                    <h4 class="card-title">Platinum</h4>
+                                    <p class="card-text">4 dispositivos ao mesmo tempo</p>
+                                    <p class="card-text">Resolução Full HD e 4K Ultra HD</p>
+                                    <p class="card-text">Áudio Dolby Atmos</p>
+                                    <p class="card-text">100 downloads para curtir off-line</p>
+                                    <h2 class="mt-auto">12x R$39,90/mês</h2>
+                                    <span>Preço total anual R$478,80</span>
+                                    <button class="btn btn-primary mt-3" type="button">ESCOLHA O SEU PLANO</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
